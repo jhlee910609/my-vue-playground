@@ -5,8 +5,9 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "test:unit": "vue-cli-service test:unit",
-    "test:unit:watch": "vue-cli-service test:unit --watch",
+    "test:unit": "vue-cli-service test:unit --coverage",
+    "test:unit:watch": "vue-cli-service test:unit --wantch",
+    "test:staged": "jest --bail --findRelatedTests",
     "lint": "vue-cli-service lint",
     "prepare": "husky install",
     "scriptname": "cmd",
