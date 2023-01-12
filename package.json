@@ -7,7 +7,9 @@
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "test:unit:watch": "vue-cli-service test:unit --watch",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "prepare": "husky install",
+    "scriptname": "cmd"
   },
   "dependencies": {
     "core-js": "^3.8.3",
@@ -26,6 +28,7 @@
     "babel-jest": "^27.0.6",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
+    "husky": "^8.0.3",
     "jest": "^27.0.5",
     "vue-template-compiler": "^2.6.14"
   },
